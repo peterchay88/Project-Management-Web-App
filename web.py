@@ -49,5 +49,3 @@ if st.button(label="Complete", key="Complete Button"):
 # Input box on the web page
 st.text_input(label="", placeholder="Enter a new item..",
               on_change=add_todo, key="new_todo_input")
-
-st.session_state
