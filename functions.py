@@ -1,5 +1,5 @@
 import time
-import PySimpleGUI as sg
+# import PySimpleGUI as sg
 
 FILEPATH = "todolist.txt"
 
@@ -52,12 +52,12 @@ def greeting_user():
         print("Good Morning.")
 
 
-def create_new_edit_window():
-    edit_input_box = sg.InputText(key="Edit Input")
-    confirm_edit_button = sg.Button("Done", key="Confirm")
-    return sg.Window("Edit Item", layout=[[edit_input_box, confirm_edit_button]],
-                     font=('Helvetica', 15))
-
-
-def close_edit_window(edit_window_local):
-    edit_window_local.close()
+# def create_new_edit_window():
+#     edit_input_box = sg.InputText(key="Edit Input")
+#     confirm_edit_button = sg.Button("Done", key="Confirm")
+#     return sg.Window("Edit Item", layout=[[edit_input_box, confirm_edit_button]],
+#                      font=('Helvetica', 15))
+#
+#
+# def close_edit_window(edit_window_local):
+#     edit_window_local.close()
